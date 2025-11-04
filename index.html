@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Auto Wheeldealers - Car Marketplace</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <h1>🚗 Auto Wheeldealers</h1>
+    <p>Your trusted online car marketplace</p>
+    <div class="buttons">
+      <button id="sortPrice">Sort by Price</button>
+      <button id="filterNew">Show Brand New</button>
+      <button id="reset">Reset</button>
+    </div>
+  </header>
+
+  <main>
+    <div id="carContainer" class="car-container"></div>
+  </main>
+
+  <div id="carModal" class="modal">
+    <div class="modal-content">
+      <span class="close">&times;</span>
+      <img id="modalImg" src="" alt="Car Image">
+      <h2 id="modalName"></h2>
+      <p id="modalPrice"></p>
+      <p id="modalCondition"></p>
+      <ul id="modalSpecs"></ul>
+    </div>
+  </div>
+
+  <footer>
+    <p>© 2025 Auto Wheeldealers | Designed by Jhon Karlo Reg</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
